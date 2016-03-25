@@ -28,5 +28,4 @@ class Solution(object):
                     else:
                         i = i + 1
                         j = j + 1
-            print pat_word_hash
             return True
