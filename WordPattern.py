@@ -22,8 +22,8 @@ class Solution(object):
                     j = j + 1
                 else:
                     if pat_word_hash.get(pattern[i]) != words[j]:
-                        return false
+                        return FALSE
                     else:
                         i = i + 1
                         j = j + 1
-            return true
+            return TRUE
